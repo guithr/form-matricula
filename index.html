@@ -15,9 +15,85 @@
 
     <!-- FONT GOOGLE -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <main>
+        <div class="main-container">
+          <div class="back">
+            <img
+              src="./assets/icons/arrow-left-02.svg"
+              alt="Icone seta para esquerda, para voltar"
+            />
+            <span>Voltar</span>
+          </div>
+          <h2 class="heading2">Formulário de matrícula</h2>
+          <p>
+            Preencha os dados abaixo para matricular seu filho na escola de
+            educação infantil Estrelas do Amanhã.
+          </p>
+
+          <form action="">
+            <fieldset>
+              <legend>Informações da criança</legend>
+
+              <div class="input-wrapper">
+                <label for="fullname">Nome completo</label>
+                <input
+                  id="fullname"
+                  name="fullname"
+                  type="text"
+                  placeholder=""
+                />
+              </div>
+              <div class="input-wrapper">
+                <label for="birth">Data de nascimento</label>
+                <input
+                  id="birth"
+                  name="birth"
+                  type="date"
+                  placeholder=""
+                  lang="pt-BR"
+                />
+              </div>
+              <div class="select-wrapper">
+                <label for="birth">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="female">Feminino</option>
+                  <option value="male">Masculino</option>
+                  <option value="na">Prefiro não responder</option>
+                </select>
+              </div>
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea name="medical-info" id="medical-info"></textarea>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </main>
+
+      <aside>
+        <div class="aside-container">
+          <img src="./assets/logo.svg" alt="Logo Estrelas do Amanhã" />
+          <header>
+            <h1 class="heading1">
+              Porque cada momento de <span>aprendizado</span> conta
+            </h1>
+            <p>
+              Inscreva seu filho em nossa escola e veja-o florescer em um
+              ambiente acolhedor, seguro e estimulante.
+            </p>
+          </header>
+          <img
+            src="./assets/Illustration.svg"
+            alt="Uma ilustração de uma professora com um papel que tem desenhado uma estrela mostrando para as 4 crianças"
+          />
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
