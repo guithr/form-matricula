@@ -1,0 +1,53 @@
+:root {
+  /* BRAND */
+  --brand-light: #f67841;
+  --brand-md: #f3541c;
+  --brand-dark: #e43a12;
+
+  /* TEXT */
+  --text-primary: #292524;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
+
+  /* SURFACE */
+  --surface-primary: #ffffff;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
+
+  /* STROKE */
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+
+  /* SEMANTIC */
+  --semantic-error: #dc2626;
+
+  /* SUPPORTING */
+  --orange: #f9a474;
+  --yellow: #fedf6f;
+  --green: #c7d78d;
+  --blue: #b8cedc;
+  --violet: #c3b2e7;
+  --pink: #f682a5;
+}
+
+.heading1 {
+  font-size: 2rem;
+  line-height: 120%;
+  font-weight: 700;
+}
+.heading2 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 700;
+}
+.heading3 {
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: 700;
+}
+.heading4 {
+  font-size: 1rem;
+  line-height: 120%;
+  font-weight: 700;
+}
