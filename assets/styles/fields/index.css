@@ -49,6 +49,29 @@ select {
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem);
 }
-.address .flex {
+.address-info .flex {
   gap: 1.25rem;
+}
+
+input {
+  &:invalid {
+    border: 1px solid var(--semantic-error);
+  }
+  & + small {
+    color: var(--text-tertiary);
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+    color: var(--semantic-error);
+  }
+
+  &:valid + .error {
+    display: none;
+  }
 }
