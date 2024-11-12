@@ -49,3 +49,6 @@ select {
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem);
 }
+.address .flex {
+  gap: 1.25rem;
+}
