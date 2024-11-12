@@ -57,9 +57,14 @@
   font-weight: 700;
 }
 .text-md {
+  color: var(--text-primary);
   font-size: 1rem;
-  line-height: 120%;
-  font-weight: 700;
+  line-height: 125%;
+  font-weight: 600;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 140%;
 }
 
 body {
